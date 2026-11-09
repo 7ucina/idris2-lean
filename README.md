@@ -126,3 +126,8 @@ bench/run.sh lean4 lean chez refc
 The optimization passes follow Lean 4's compiler (Lean FRO; Apache 2.0) and the paper
 *Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming*
 by Sebastian Ullrich and Leonardo de Moura. Built on the Idris2 compiler API.
+
+## License
+
+MIT; see [LICENSE](LICENSE). Lean 4's runtime, which generated programs link against,
+is Apache 2.0.
