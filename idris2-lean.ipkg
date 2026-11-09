@@ -1,0 +1,8 @@
+package idris2-lean
+version = 0.1.0
+sourcedir = "src"
+depends = idris2, contrib
+modules = Lean.IR, Lean.Prims, Lean.Layout, Lean.Lower, Lean.Spec, Lean.Types, Lean.RC, Lean.Opt, Lean.ResetReuse, Lean.Borrow, Lean.Expand, Lean.CSE, Lean.Accum, Lean.EmitC, Lean.Backend
+main = Main
+executable = idris2-lean
+opts = "--codegen chez"

@@ -1,0 +1,10 @@
+build/
+bench/idris/build/
+bench/lean/out/
+support/*.o
+support/*.a
+support/*.pch
+support/*.gch
+support/ld/
+*.ttc
+*.ttm
